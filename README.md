@@ -2,8 +2,6 @@
 
 A simple VSCode extension that adds a context menu item to quickly open a terminal and run Claude Code in any folder.
 
-<video>
-
 ## Usage
 
 1. Right-click on any folder in the VSCode Explorer
