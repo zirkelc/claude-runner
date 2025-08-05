@@ -1,4 +1,4 @@
-# Claude Runner
+# Claude Terminal Runner
 
 A simple VSCode extension that adds a context menu item to quickly open a terminal and run Claude Code in any folder.
 
@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/696300e1-620e-448b-9173-e8b86ff063e2
 
 ### From GitHub Releases
 
-1. Download the latest `.vsix` file from [GitHub Releases](https://github.com/zirke/claude-runner/releases)
+1. Download the latest `.vsix` file from [GitHub Releases](https://github.com/zirkelc/claude-terminal-runner/releases)
 2. Open VSCode
 3. Open Command Palette (Ctrl+Shift+P)
 4. Type "Extensions: Install from VSIX..."
@@ -29,8 +29,8 @@ https://github.com/user-attachments/assets/696300e1-620e-448b-9173-e8b86ff063e2
 
 ```bash
 # Clone the repository
-git clone https://github.com/zirke/claude-runner.git
-cd claude-runner
+git clone https://github.com/zirkelc/claude-terminal-runner.git
+cd claude-terminal-runner
 
 # Install dependencies
 pnpm install
@@ -42,7 +42,7 @@ pnpm run compile
 pnpm run package
 
 # Install the generated .vsix file
-code --install-extension claude-runner-1.0.0.vsix
+code --install-extension claude-terminal-runner-1.0.0.vsix
 ```
 
 ## Development
