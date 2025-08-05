@@ -3,6 +3,8 @@
   "displayName": "Claude Runner",
   "description": "Open a new terminal and run Claude Code from any folder",
   "version": "1.0.0",
+  "publisher": "zirkelc",
+  "icon": "./icons/claude.png",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -11,11 +13,11 @@
     "vscode:prepublish": "pnpm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "package": "pnpm dlx @vscode/vsce package"
+    "package": "pnpm vsce package"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zirke/claude-runner"
+    "url": "https://github.com/zirkelc/claude-runner"
   },
   "license": "MIT",
   "author": {

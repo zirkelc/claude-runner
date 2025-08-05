@@ -10,8 +10,8 @@ export function activate(context: vscode.ExtensionContext) {
                 name: 'Claude',
                 cwd: folderPath,
                 iconPath: {
-                    light: vscode.Uri.file(path.join(context.extensionPath, 'claude-black.svg')),
-                    dark: vscode.Uri.file(path.join(context.extensionPath, 'claude-white.svg'))
+                    light: vscode.Uri.file(path.join(context.extensionPath, 'icons', 'claude-black.svg')),
+                    dark: vscode.Uri.file(path.join(context.extensionPath, 'icons', 'claude-white.svg'))
                 }
             });
             
